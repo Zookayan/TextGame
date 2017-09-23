@@ -12,7 +12,7 @@ Game::~Game()
 }
 
 //Functions
-void Game::mainMenu();
+void Game::mainMenu()
 {
 	cout << "MAIN MENU" << endl << endl;
 

@@ -20,7 +20,7 @@ public:
 	void mainMenu();
 
 	//Accessors
-	inline bool getPlaying(); const { return this->playing; }
+	inline bool getPlaying() const { return this->playing; }
 
 	//Modifiers
 
