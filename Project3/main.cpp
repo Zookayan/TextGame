@@ -1,7 +1,5 @@
 #include"Game.h"
 
-using namespace std;
-
 int main()
 {
 	srand(time(NULL));
@@ -10,7 +8,7 @@ int main()
 	
 	while (game.getPlaying())
 	{
-
+		game.mainMenu();
 	}
 
 	return 0;
